@@ -1,4 +1,4 @@
-FROM traccar/traccar:latest
+FROM traccar/traccar:ubuntu
 
 VOLUME /opt/traccar/data
 VOLUME /opt/traccar/conf
