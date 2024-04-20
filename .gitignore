@@ -1,3 +1,4 @@
 *.lock
 node-modules
+web/node_modules
 *.db
