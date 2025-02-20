@@ -4,7 +4,6 @@ import {
 } from '@mui/material';
 import ReactCountryFlag from 'react-country-flag';
 import makeStyles from '@mui/styles/makeStyles';
-import CloseIcon from '@mui/icons-material/Close';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
 import { useTheme } from '@mui/material/styles';
 import { useDispatch, useSelector } from 'react-redux';
@@ -230,15 +229,6 @@ const LoginPage = () => {
           )}
         </div>
       </div>
-      <Snackbar
-        open={!!announcement && !announcementShown}
-        message={announcement}
-        action={(
-          <IconButton size="small" color="inherit" onClick={() => setAnnouncementShown(true)}>
-            <CloseIcon fontSize="small" />
-          </IconButton>
-        )}
-      />
     </LoginLayout>
   );
 };

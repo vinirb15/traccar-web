@@ -1,4 +1,6 @@
 *.lock
-node-modules
+node_modules
 web/node_modules
+build
+pnpm-lock.yaml
 *.db
