@@ -5,6 +5,7 @@ WORKDIR /app
 ENV VITE_APP_VERSION=0.1-beta
 ENV VITE_API_URL=http://localhost:8082
 ENV VITE_SOCKET_URL=ws://localhost:8082
+ENV VITE_WEB_URL=http://localhost:3000
 
 COPY package.json ./
 

@@ -15,6 +15,7 @@ export default defineConfig((mode) => {
         '/api': process.env.VITE_API_URL,
         '/api/socket': process.env.VITE_SOCKET_URL,
       },
+      allowedHosts: ['localhost:3000', '127.0.0.1', process.env.VITE_WEB_URL],
     },
     build: {
       outDir: 'build',
