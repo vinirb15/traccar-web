@@ -44,7 +44,8 @@
     "workbox-window": "^7.3.0"
   },
   "scripts": {
-    "start": "vite",
+    "start": "vite --host",
+    "dev": "vite",
     "build": "vite build",
     "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.svg",
     "lint": "eslint .",
